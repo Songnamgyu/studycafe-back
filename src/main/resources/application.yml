@@ -34,4 +34,4 @@ jwt:
   #HS512 ????? ??? ??? ??? 512bit, ? 64byte ??? secret key? ???? ??.
   #echo -n 'springboot-studycafe-bysong-project-jwt-security-springboot-studycafe-bysong-project-jwt-security' | base64 ??? ???? base64? ???
   secret : keyc3ByaW5nYm9vdC1zdHVkeWNhZmUtYnlzb25nLXByb2plY3Qtand0LXNlY3VyaXR5LXNwcmluZ2Jvb3Qtc3R1ZHljYWZlLWJ5c29uZy1wcm9qZWN0LWp3dC1zZWN1cml0eQ==
-  token-validity-in-seconds: 86400 #?
+  token-validity-in-seconds: 1800 #?
