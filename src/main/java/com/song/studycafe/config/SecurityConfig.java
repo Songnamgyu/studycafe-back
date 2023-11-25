@@ -29,6 +29,8 @@ public class SecurityConfig {
     private final TokenProvider tokenProvider;
     private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
     private final JwtAccessDeniedHandler jwtAccessDeniedHandler;
+
+    private final WebConfig webConfig;
     //Password는 BCrpytPasswordEncoder 사용
     @Bean
     public PasswordEncoder passwordEncoder() {
